@@ -10,7 +10,7 @@
       overflow: hidden;
       background-color: #0D6157;
       margin: 5px;
-      padding: 30px 10px;
+      padding: 30px 15px;
       border-radius: 10px;
     }
 
@@ -24,14 +24,16 @@
       border-radius: 4px;
     }
 
-    .wrapper a.logo {
-      font-size: 25px;
-      font-weight: bold;
-      color: #fff;
+    .logo {
+      border: 0.1em solid black;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
     }
 
     .wrapper a:hover {
       background-color: #ddd;
+      border-radius: 150px;
     }
 
     .wrapper a.activate {
@@ -50,7 +52,7 @@
 <body>
   <header>
     <div class="wrapper">
-      <a href="#default" class = "logo">CompanyLogo</a>
+      <a> <img src = "logo.jpg" class = "logo"></a>
       <div class="header-right">
         <a href="index.html" class = "activate">Main</a>
         <a href="about.html" class = "activate">About</a>
