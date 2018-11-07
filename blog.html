@@ -14,7 +14,13 @@
     <div class="hero-text">
     <div class="back-button">
     <h1 align="left" style="font-size:50px">Blog Name</h1>
-    <p align="left">Nov 6, 2018</p>
+    <script>
+    var currentDate=new Date(),
+    day = currentDate.getDate(),
+    month = currentDate.getMonth() + 1,
+    year = currentDate.getFullYear();
+    document.write(day + "/" + month + "/" + year)
+    </script>
     <button>Back</button>
     </div>
     </div>
