@@ -1,4 +1,21 @@
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    text-align: left;  
+    border-radius: 20px;
+    
+}
+#a {
+    float: right;
+    padding: 10px;
+    border-radius:40px;
+}
 .wrapper{
   overflow: hidden;
   background-color: #0D6157;
@@ -104,4 +121,3 @@ body, html{
 .imgbx{
   max-width: 100%;
 }
-
