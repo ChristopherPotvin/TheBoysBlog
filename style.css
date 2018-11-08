@@ -1,3 +1,4 @@
+
 .footer {
     position: fixed;
     left: 0;
@@ -14,4 +15,109 @@
     float: right;
     padding: 10px;
     border-radius:40px;
+}
+.wrapper{
+  overflow: hidden;
+  background-color: #0D6157;
+  margin: 5px;
+  padding: 30px 15px;
+  border-radius: 10px;
+}
+
+.wrapper a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.logo-top {
+  border: 0.1em solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.wrapper a:hover {
+  background-color: #ddd;
+  border-radius: 150px;
+}
+
+.wrapper a.activate {
+  background-color: #9be0d8;
+  color: black;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.header-right {
+  float: right;
+  align-items: center;
+
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-image {
+  background-image:  linear-gradient(rgba(124, 124, 124, 0.5), rgba(124, 124, 124, 0.5)), url("daylight-environment-forest-459225.jpg");
+  height: 50%;
+  Background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.back-button
+{
+  text-align: left;
+}
+
+.flex-container{
+  background-color: #6699ff;
+  margin: 0px;
+  padding: 25px;
+  width:150px;
+  height:150px;
+  display: flex;
+  flex: 0 0 100px;
+}
+.box{
+  position: relative;
+  margin:15px;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-0%);
+  width: 600px;
+  padding: 20px;
+  box-sizing:border-box;
+  background:#3333;
+  border-radius: 0px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  display: flex;
+}
+.content{
+  padding-left: 10px;
+}
+.content h2{
+  margin:0;
+  line-height: 25px;
+  padding-left: 0;
+}
+.imgbx{
+  max-width: 100%;
 }
