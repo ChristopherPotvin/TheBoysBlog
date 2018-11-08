@@ -1,13 +1,13 @@
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: red;
+  background-color: rgb(8, 52, 47);
   color: white;
   text-align: left;  
-  border-radius: 20px;
+  border-radius: 0px;
     
 }
 #a {
@@ -17,10 +17,10 @@
 }
 .wrapper{
   overflow: hidden;
-  background-color: #0D6157;
-  margin: 5px;
+  background-color:rgb(8, 52, 47);
+  margin: 0px;
   padding: 30px 15px;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .wrapper a {
